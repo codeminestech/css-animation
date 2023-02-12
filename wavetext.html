@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(53, 51, 51);
+        }
+
+h1{
+position: absolute;
+font-size: 70px;
+font-family: sans-serif;
+left: 35%;
+top: 35%;
+}
+h1:nth-child(1)
+{
+    color: transparent;
+  -webkit-text-stroke:1px rgb(16, 124, 196);
+
+}
+h1:nth-child(2)
+{
+
+  color: rgb(28, 127, 240);
+
+animation: wave 2s ease-in-out infinite;
+  
+}
+
+@keyframes wave 
+{
+    0%{
+        clip-path: polygon(0 100%, 0 59%, 16% 53%, 26% 50%, 36% 50%, 44% 53%, 59% 52%, 76% 52%, 81% 50%, 87% 44%, 100% 39%, 100% 100%); 
+    }
+    50%{
+        clip-path: polygon(0 100%, 0 33%, 8% 26%, 20% 25%, 30% 30%, 37% 38%, 41% 52%, 48% 54%, 63% 36%, 78% 29%, 100% 23%, 100% 100%);
+    }
+    100%
+    {
+        clip-path: polygon(0 100%, 0 59%, 16% 53%, 26% 50%, 36% 50%, 44% 53%, 59% 52%, 76% 52%, 81% 50%, 87% 44%, 100% 39%, 100% 100%); 
+    }
+}
+
+    </style>
+</head>
+<body>
+   <div class="container">
+<h1>CODEMINES</h1>
+<h1>CODEMINES</h1>
+   </div>
+</body>
+</html>
